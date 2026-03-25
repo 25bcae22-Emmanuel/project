@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <span class="logo-text">My Portfolio</span>
+    </div>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#interest">Interests</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section id="home">
+  <div class="home-text reveal">
+    <h1>Hi, I’m Emmanuel</h1>
+    <p>A creative web designer and developer who loves vibrant and functional interfaces.</p>
+    <a href="cv.pdf" class="cv-btn"><i class="fas fa-download"></i> View CV</a>
+  </div>
+
+  <div class="home-image reveal">
+    <img src="images.jpg" alt="Profile">
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-box reveal">
+    <h2>About Me</h2>
+    <p>I’m Emmanuel, a passionate learner who enjoys technology and creativity.</p>
+  </div>
+
+  <div class="about-box reveal">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div><i class="fab fa-html5"></i> HTML5</div>
+      <div><i class="fas fa-gamepad"></i> Gaming</div>
+    </div>
+  </div>
+</section>
+
+<section id="interest">
+  <h2 class="reveal">My Interests</h2>
+  <div class="interest-cards">
+
+    <div class="interest-card reveal">
+      <img src="web.jpg">
+      <h3>Web Development</h3>
+      <p>Creating immersive web design and UI/UX.</p>
+    </div>
+
+    <div class="interest-card reveal">
+      <img src="gaming.jpg">
+      <h3>Online Gaming</h3>
+      <p>Exploring competitive digital games.</p>
+    </div>
+
+    <div class="interest-card reveal">
+      <img src="photography.jpg">
+      <h3>Photography</h3>
+      <p>Creative wildlife and sunset photography.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-form reveal">
+    <h1>Contact Me</h1>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" id="name" required>
+      <input type="email" placeholder="Your Email" id="email" required>
+      <textarea rows="6" placeholder="Your Message" id="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+
+
+  <div class="contact-info reveal">
+    <h3>Get in Touch</h3>
+    <p><i class="fas fa-envelope"></i> 25bcae22@kristujayanti.com</p>
+    <p><i class="fab fa-instagram"></i> @emmanuel_boiii1233</p>
+    <p><i class="fas fa-phone"></i> +91 57564 13466</p>
+  </div>
+</section>
+
+<footer>
+© 2026 Portfolio | Designed by Emmanuel Anish
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
